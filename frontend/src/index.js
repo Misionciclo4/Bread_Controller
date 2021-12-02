@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App.js';
-import * as serviceWoker from "./serviceWorker";
+import App from './App';
 
 
 ReactDOM.render(
@@ -12,4 +11,4 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-serviceWoker.unregister();
+

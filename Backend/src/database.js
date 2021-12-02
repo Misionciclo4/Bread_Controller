@@ -2,14 +2,20 @@ const mongoose = require('mongoose');
 
 
 
-const URI = 'mongodb://localhost/inventario';
+console.log(process.env.MONGODB_URI)
+const URI = process.env.MONGODB_URI;
 
-mongoose.connect(URI, {
-  useNewUrlParser: true,
+mongoose.connect(URI,{
+ useNewUrlparser: true,
 
-})
-const connection = mongoose.connection
+});
+
+const connection = mongoose.connection;
 
 connection.once('open', () => {
-  console.log('DB esta conectado');
-})
+
+    console.log('DB conectada');
+});
+
+
+
