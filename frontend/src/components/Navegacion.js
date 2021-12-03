@@ -7,7 +7,7 @@ export default class Navegacion extends Component {
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-          BAKERY MANAGEMENT
+          BREAD CONTROLLER-ORDERS
           </Link>
           <button
             className="navbar-toggler"

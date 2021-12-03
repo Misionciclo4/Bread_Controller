@@ -47,7 +47,7 @@ export default class ListProductos extends Component {
                   className="btn btn-secondary m-1"
                   to={`/edit/${producto._id}`}
                 >
-                  Editar
+                  Edit
                 </Link>
                 <button
                   className="btn btn-danger"
